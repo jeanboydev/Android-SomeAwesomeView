@@ -1,2 +1,2 @@
 # Android-SomeAwesomeView
-自定义VIew之旅
+自定义View之旅
