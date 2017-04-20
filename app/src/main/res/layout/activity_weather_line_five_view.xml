@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0082D7"
+    tools:context="com.jeanboy.app.awesome.WeatherLineFiveViewActivity">
+
+
+    <com.jeanboy.app.awesome.view.WeatherLineFiveView
+        android:id="@+id/weatherLineFiveView"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="175dp" />
+
+</RelativeLayout>
