@@ -62,7 +62,7 @@ public class WeatherLineFiveView extends View {
 
 
     private ValueAnimator valueAnimator;
-    private float currentValue = 1f;
+    private float currentValue = 0f;
     private boolean isAnimating = false;
     private boolean isShown = false;
 
