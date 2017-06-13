@@ -4,16 +4,16 @@ package com.jeanboy.app.awesome.view;
  * Created by jeanboy on 2016/11/23.
  */
 
-public class WeatherGoRunData {
+public class RainbowLineData {
 
     private String temperatureTip;
     private String hour;
     private int level;
 
-    public WeatherGoRunData() {
+    public RainbowLineData() {
     }
 
-    public WeatherGoRunData(String temperatureTip, String hour, int level) {
+    public RainbowLineData(String temperatureTip, String hour, int level) {
         this.temperatureTip = temperatureTip;
         this.hour = hour;
         this.level = level;

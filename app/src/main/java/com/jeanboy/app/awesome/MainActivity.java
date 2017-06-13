@@ -17,7 +17,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, DashBoardViewActivity.class));
     }
 
-    public void toWeatherLineFiveView(View view) {
-        startActivity(new Intent(this, WeatherLineFiveViewActivity.class));
+    public void toRainbowLineView(View view) {
+        startActivity(new Intent(this, RainbowLineViewActivity.class));
+    }
+
+    public void toLineChartView(View view) {
+        startActivity(new Intent(this, LineChartViewActivity.class));
     }
 }

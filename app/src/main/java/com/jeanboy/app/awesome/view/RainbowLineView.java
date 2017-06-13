@@ -26,7 +26,7 @@ import java.util.List;
  * Created by jeanboy on 2016/11/22.
  */
 
-public class WeatherLineFiveView extends View {
+public class RainbowLineView extends View {
 
     private Paint mLinePaint;
     private Paint mCirclePaint;
@@ -58,7 +58,7 @@ public class WeatherLineFiveView extends View {
     private float circleTextBottomMargin = 32f;
     private float circleTextPadding = 5f;
 
-    private List<WeatherGoRunData> dataList = new ArrayList<>();
+    private List<RainbowLineData> dataList = new ArrayList<>();
 
 
     private ValueAnimator valueAnimator;
@@ -66,15 +66,15 @@ public class WeatherLineFiveView extends View {
     private boolean isAnimating = false;
     private boolean isShown = false;
 
-    public WeatherLineFiveView(Context context) {
+    public RainbowLineView(Context context) {
         this(context, null);
     }
 
-    public WeatherLineFiveView(Context context, AttributeSet attrs) {
+    public RainbowLineView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public WeatherLineFiveView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public RainbowLineView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
         initView();
@@ -320,7 +320,7 @@ public class WeatherLineFiveView extends View {
         }
     }
 
-    public void setData(List<WeatherGoRunData> dataList) {
+    public void setData(List<RainbowLineData> dataList) {
         if (dataList == null) return;
         if (dataList.isEmpty() || dataList.size() < ITEM_MAX) return;
         this.dataList.clear();

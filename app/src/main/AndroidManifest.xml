@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jeanboy.app.awesome">
+          package="com.jeanboy.app.awesome">
 
     <application
         android:allowBackup="true"
@@ -10,13 +10,15 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".DashBoardViewActivity" />
-        <activity android:name=".WeatherLineFiveViewActivity"/>
+        <activity android:name=".DashBoardViewActivity"/>
+        <activity android:name=".RainbowLineViewActivity"/>
+        <activity android:name=".LineChartViewActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/white"
-    tools:context="com.jeanboy.app.awesome.MainActivity">
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@android:color/white"
+             tools:context="com.jeanboy.app.awesome.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -25,15 +25,23 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:onClick="toDashBoardView"
-                android:text="Dash Board View" />
+                android:text="Dash Board View"/>
 
             <Button
                 style="@style/Base.TextAppearance.AppCompat.Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:onClick="toWeatherLineFiveView"
-                android:text="Weather Line Five View" />
+                android:onClick="toRainbowLineView"
+                android:text="Rainbow Line View"/>
+
+            <Button
+                style="@style/Base.TextAppearance.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="toLineChartView"
+                android:text="Line Chart View"/>
 
         </LinearLayout>
 

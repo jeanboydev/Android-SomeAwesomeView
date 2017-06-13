@@ -4,10 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0082D7"
-    tools:context="com.jeanboy.app.awesome.WeatherLineFiveViewActivity">
+    tools:context="com.jeanboy.app.awesome.RainbowLineViewActivity">
 
 
-    <com.jeanboy.app.awesome.view.WeatherLineFiveView
+    <com.jeanboy.app.awesome.view.RainbowLineView
         android:id="@+id/weatherLineFiveView"
         android:layout_width="match_parent"
         android:layout_centerInParent="true"
