@@ -37,8 +37,8 @@ public class LineChartViewActivity extends AppCompatActivity {
         tv_step_space = (TextView) findViewById(R.id.tv_step_space);
 
         List<LineChartView.Data> datas = new ArrayList<>();
-        for (int i : dataArr) {
-            LineChartView.Data data = new LineChartView.Data(i, "");
+        for (int value : dataArr) {
+            LineChartView.Data data = new LineChartView.Data(value);
             datas.add(data);
         }
         lineChartView.setData(datas);

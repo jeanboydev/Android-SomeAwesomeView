@@ -158,6 +158,7 @@ public class LineChartView extends View {
                 super.onAnimationEnd(animation);
                 currentValue = 1f;
                 isAnimating = false;
+                isPlayAnim = false;
             }
         });
         valueAnimator.setStartDelay(500);
@@ -563,19 +564,14 @@ public class LineChartView extends View {
     public static class Data {
 
         int value;
-        String text;
 
-        public Data(int value, String text) {
+        public Data(int value) {
             this.value = value;
-            this.text = text;
         }
 
         public int getValue() {
             return value;
         }
 
-        public String getText() {
-            return text;
-        }
     }
 }
