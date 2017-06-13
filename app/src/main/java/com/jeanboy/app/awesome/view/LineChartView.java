@@ -12,6 +12,7 @@ import android.graphics.PathMeasure;
 import android.graphics.Point;
 import android.util.AttributeSet;
 import android.view.View;
+import android.view.animation.AccelerateDecelerateInterpolator;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -135,6 +136,7 @@ public class LineChartView extends View {
 
     private void initAnim() {
         valueAnimator = ValueAnimator.ofFloat(0f, 1f).setDuration(dataList.size() * 150);
+        valueAnimator.setInterpolator(new AccelerateDecelerateInterpolator());
         valueAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
