@@ -22,8 +22,8 @@ public class LineChartViewActivity extends AppCompatActivity {
 
     LineChartView lineChartView;
 
-    private int[] dataArr = new int[]{200, 100, 300, 50, 0, -20, 200, 100, 300, 50, 200, 150, 151, 160, 100, 300, 50, 200, 150,
-            200, 100, 300, 50, 200, 100, 150, 150};
+    private int[] dataArr = new int[]{200, 100, 300, -20, 50, -80, 200, 100, 300, 50, 200, 150, 160, 100, 300, 50, 200, 150,
+            300, 50, 200, 100, 150, 150};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
